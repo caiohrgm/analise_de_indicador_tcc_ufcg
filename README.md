@@ -1,2 +1,2 @@
 # analise-de-indicador-tcc-ufcg
-Repositório do trabalho de conclusão de curso do curso de Ciência da Computação, da UFCG
+Repositório para a disciplina Trabalho de Conclusão de Curso, do curso de Ciência da Computação da UFCG - 2022.
