@@ -47,10 +47,4 @@ def prepare_datasets(csv_path):
         temp_df = group_by_empresa.get_group(company_name)
         companies_set.append((company_name, temp_df))
     
-    for tpl in companies_set:
-        group = tpl[1].groupby(['Canal_Distribuicao','Mercado']).size()
-        group = group.to_frame(name = 'Qtd')
-        display(group)
-
-
     return companies_set
