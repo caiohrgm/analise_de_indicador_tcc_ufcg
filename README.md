@@ -40,7 +40,7 @@ This repository contains the notebooks for the data analysis of a sales indicato
 
 #### Installation
 
-Because of a non-disclosure agreement (NDA), the base dataset could not be provided for public. For this reason, it will only be explained the running process:
+Because of a non-disclosure agreement (NDA), the base dataset could not be provided for the public. For this reason, it will only be explained the running process:
 
 First, clone the repository using the following command:
 
@@ -81,7 +81,7 @@ Ok, now it is time to run the notebooks:
 
 MIT License
 
-Copyright (c) [2022] [Caio Henrique Medeiros]
+Copyright (c) [2022](LICENSE) Caio Henrique R. G. Medeiros
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
