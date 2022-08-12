@@ -6,6 +6,8 @@ global companies_set
 def prepare_datasets(csv_path):
     path = r"D:\Documentos_D\UFCG\2021.2e\TCC\Project\analise_de_indicador_tcc_ufcg\data\raw\indicadores_raw.csv"
     base_df = pd.read_csv(path, sep =",")
+
+    print(len(base_df))
     
     df = base_df[['Indicador','Dim1_Membro_Mome','Dim2_Membro_Mome','Dim3_Membro_Mome','VLR_Ocorrencia','Tipo_Registro','Data_Ocorrencia']]
     df = df[df['Tipo_Registro'] == "Apurado"] 
