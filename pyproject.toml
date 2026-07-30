@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "analise-de-indicador-tcc-ufcg"
+version = "0.1.0"
+description = ""
+authors = ["caiohrgm <caio.medeiros@ccc.ufcg.edu.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+
+numpy = "^2.3"
+pandas = "^2.3"
+scipy = "^1.16"
+
+matplotlib = "^3.10"
+seaborn = "^0.13"
+
+statsmodels = "^0.14"
+scikit-learn = "^1.7"
+
+xgboost = "^3.0"
+
+prophet = "^1.1"
+pmdarima = "^2.1"
+
+ipykernel = "^6.30"
+lightgbm = "^4.7.0"
+catboost = "^1.2.10"
+torch = "^2.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
